@@ -7,7 +7,7 @@ from nav_msgs.msg import Odometry
 from assignment2_rt_part1.msg import robot_status
 from assignment2_rt_part1.srv import get_last_target, get_last_targetResponse
 from sensor_msgs.msg import LaserScan
-from std_msgs.msg import Float32
+from std_msgs.msg import Float32 
 
 # Global variables to store the robot's position and velocity
 current_x = 0.0
