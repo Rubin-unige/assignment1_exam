@@ -1,0 +1,8 @@
+<launch>
+    <!-- Start the service node -->
+    <node name="service_node" pkg="assignment2_rt_part1" type="service_node.py" output="screen" />
+
+    <!-- Start the action client node -->
+    <node name="action_client_node" pkg="assignment2_rt_part1" type="action_client_node.py" output="screen" />
+    
+</launch>
